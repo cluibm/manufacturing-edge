@@ -1,7 +1,11 @@
 # manufacturing-edge
 
-This document supplements the blog [Deep dive into an Edge Computing architecture]()
+Our team implemented a quality inspection system using edge computing technologies like IBM Edge Application Manager. We have described our implementation in the article, [Explore the details of an edge computing architecture for a quality inspection system](), where you can learn how IBM Edge Application Manager and IBM Maximo Visual Inspection work together to deliver an edge computing solution.
+
+We implemented several functions to be able to access the corresponding entities from IBM Edge Application Manager (IEAM) APIs.
+
 ## The following functions were implemented for accessing the corresponding entities from [IBM Edge Application Manager (IEAM) APIs](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/api/edge_rest_apis.html):
+Table 1 documents IEAM Exchange API and Table 2 documents IEAM CSS API.
 
 ### Table 1. IEAM Exchange API (base is HZN_EXCHANGE_API)
 Component |	Name |	API	| Description
